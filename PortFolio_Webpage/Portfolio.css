@@ -1,0 +1,322 @@
+@import url('https://fonts.googleapis.com/css2?family=Roboto&display=swap');
+
+*
+{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+body{
+    font-family: system-ui, -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif;
+    background-color: rgb(1, 1, 18);
+    color: white;
+}
+
+nav
+{
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+    position: fixed;
+    z-index: 1;
+    top: 0%;
+    width: 100%;
+    height: 80px;
+    background: #06304a;
+}
+
+nav .logo
+{
+    font-size: 22px;
+}
+
+.logo:hover{
+    color: rgb(203, 108, 13) ;
+}
+
+ul
+{
+    display: flex;
+}
+
+ul li
+{
+    list-style-type: none;
+}
+
+ul li a{
+    text-decoration: none;
+    color: white;
+    margin-inline: 22px;
+    font-size: 22px;
+}
+
+ul li a:hover
+{
+    color: aqua;
+    cursor: pointer;
+}
+
+.main
+{
+    margin-top: 111px;
+    display: flex;
+    justify-content: space-evenly;
+}
+
+.main img{
+    width: 450px;
+    height: 430px;
+}
+
+.main h1{
+    font-size: 66px;
+}
+
+.main p{
+    font-size: 18px;
+    margin-top: 22px;
+}
+
+.main button{
+    width: 130px;
+    height:38px;
+    background-color: rgba(0, 255, 255, 0.769);
+    cursor: pointer;
+    border: none;
+    margin-top: 25px;
+    border-radius: 19px;
+    color: rgb(36, 6, 40);
+    font-size: 1.06rem;
+    font-weight: 500;
+}
+
+.mainText
+{
+    margin-top: 64px;
+    margin-left: -40px;
+}
+
+.mainText h1{
+    margin-top: 20px;
+}
+
+.head
+{
+    text-align: center;
+    padding: 88px;
+}
+
+.about {
+    display: flex;
+    justify-content:center;
+}
+
+.about img
+{
+    width: 300px;
+    height: 310px;
+    border-radius: 50%;
+    border: 6px solid aqua;
+}
+.about p{
+    margin-top: 22px;
+    font-size: 20px;
+}
+
+.about h2{
+    font-size: 52px;
+}
+
+.btns
+{
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+}
+.btns button{
+    padding: 11px;
+    border: 0.5px solid rgba(255, 255, 255, 0.558);
+    margin-inline: 11px;
+    background: rgba(246, 5, 190, 0.641);
+    font-size: 20px;
+    color: white;
+    border-radius: 15px;
+}
+
+.service{
+    display: flex;
+    flex-wrap:wrap ;
+    justify-content: center;
+}
+.serviceCard {
+    width: 300px;
+    padding: 22px;
+    background-color: #444;
+    color: white;
+    margin-inline: 20px;
+    margin-top: 49px;
+    text-align: center;
+}
+
+.serviceCard i
+{
+    font-size: 83px;
+}
+
+#uiDesign i
+{
+    color: rgba(255, 89, 0, 0.786);
+}
+
+#webDesign i
+{
+ color: rgb(255, 166, 0, 0.786);
+}
+
+#androidDesign i{
+    color: rgba(0, 255, 30, 0.656);
+}
+.serviceCard p{
+    margin-top: 22px;
+}
+.serviceCard h2{
+    margin-top: 22px;
+}
+
+.serviceCard button
+{
+    margin-top: 22px;
+    width: 100px;
+    height: 33px;
+    font-family:Georgia, 'Times New Roman', Times, serif ;
+    border-radius: 20px;
+    color: rgb(238, 238, 238);
+    background-color: rgb(125, 82, 179);
+    border: none;
+}
+
+.work 
+{
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+}
+
+.workCard
+{
+    text-align: center;
+    margin-top: 44px;
+   
+}
+
+.workCard img{
+    width: 600px;
+    height: 338px;
+    border-radius: 5px;
+    margin-inline: 22px;;
+    margin-bottom: 10px;
+}
+
+.workCard p{
+    margin-top: 7px;
+    margin-bottom: 15px;
+}
+.workCard a{
+    padding: 5px 22px;
+    background-color: #04364A;
+    color: #fbfbfb;
+    text-decoration: none;
+    border-radius: 5px; 
+    position: relative;
+    top: 11px;  
+}
+
+.workCard a:hover{
+    color: #a610e6;
+    background-color: #ffffff;
+    font-size: 1.06rem;
+    border-radius: 10px;
+}
+
+.contact
+{
+    width: 400px;
+    padding: 22px;
+    margin: auto;
+    background-color: gray;
+    text-align: center;
+}
+
+.contact input
+{
+    width: 95%;
+    padding: 14px;
+    height: 12px;
+    border-radius: 10px;
+    text-align: center;
+    margin-top: 17px;
+    /* border: none; */
+    
+} 
+
+.contact textarea
+{
+    width: 95%;
+    font-size: 17px;
+    border-radius: 10px;
+    margin-top: 22px;
+}
+
+.contact button{
+    width: 100px;
+    font-size: 0.8rem;
+    letter-spacing:2px;
+    font-family:Georgia, 'Times New Roman', Times, serif ;
+    height: 33px;
+    border-radius: 18px;
+    color: white;
+    background-color: #461c03;
+    border: none;
+    margin-top: 15px;
+}
+
+.icons
+{
+    text-align: center;
+    font-size: 52px;
+    margin-top: 52px;
+}
+
+.text{
+    text-align: center;
+
+}
+.text p{
+    margin-top: 11px;
+    font-size: 22px;
+}
+
+.footer
+{
+    padding: 33px;
+}
+.fa-twitter
+{
+    color: rgba(0, 255, 255, 0.673);
+}
+
+.fa-instagram
+{
+    color: rgba(225, 0, 255, 0.64);
+}
+
+.fa-youtube
+{
+    color: rgba(255, 0, 30, 0.646);
+}
+
+.fa-facebook
+{
+    color: rgba(0, 89, 255, 0.749);
+}

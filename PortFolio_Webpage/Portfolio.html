@@ -1,0 +1,154 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>PortFolio Project</title>
+    <link rel="stylesheet" href="Portfolio.css">
+    <script src="https://kit.fontawesome.com/286a7dc021.js" crossorigin="anonymous"></script>
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Roboto&display=swap" rel="stylesheet">
+</head>
+
+<body>
+    <div class="container">
+        <nav>
+            <div class="logo">
+                <h1>PortFolio</h1>
+            </div>
+            <ul>
+                <li><a href="">Home</a></li>
+                <li><a href="#about">About</a></li>
+                <li><a href="#service">Service</a></li>
+                <li><a href="#work">Work</a></li>
+                <li><a href="#contact">Contact</a></li>
+            </ul>
+            <i id="bar" class="fa-solid fa-bars"></i>
+
+        </nav>
+
+        <div class="main">
+             
+            <div class="mainText">
+                <h3>Hello  I am</h3>
+                <h1>Ashutosh Choubey</h1>
+                <p>Hey Everyone, I am FullStack Developer and I have skills <br>Like HTML, CSS, and javaScript. Typecript, React JS Redux, <br> and MEARN Material UI</p>
+                <button onclick="downloadBtn()">Download CV</button>
+            </div>
+            <img src="./IMAGES/gratis-png-retrato-de-un-hombre-joven-odontologia-fotografia-diente-hombre-barbudo-removebg-preview.png" alt="">
+        </div>
+
+        <div id="about">
+            <div class="head">
+                <h1>About Us</h1>
+            </div>
+            <div class="about">
+                <div class="aboutText">
+                     <h2>Ashutosh Choubey</h2>
+                     <p>FullStack Developer</p>
+                     <p id="yt">YouTuber : CODE With Ashutosh Choubey</p>
+                     <p>Hey I am FullStack Developer and <br>
+                      Apart From this i am Content Creator <br>
+                       making video about coding  </p>
+                </div>
+                <img src="./IMAGES/gratis-png-retrato-de-un-hombre-joven-odontologia-fotografia-diente-hombre-barbudo-removebg-preview.png" alt="">
+            </div>
+        </div>
+
+        <div id="service">
+            <div class="head">
+                <h1>Service</h1>
+            </div>
+            <div class="btns">
+                <button class="btn" id="all">All</button>
+                <button class="btn" id="ui">UI/UX Design</button>
+                <button class="btn" id="web">Web Development</button>
+                <button class="btn" id="android">Android Development</button>
+            </div>
+            <div class="service">
+               
+                <div class="serviceCard" id="uiDesign">
+                    <i class="fa-solid fa-code"></i>
+                    <h2>UI/UX Design</h2>
+                    <p>Lorem ipsum dolor sit amet consectetur, adipisicing elit. Natus, explicabo molestias!</p>
+                    <button style="cursor: pointer;"><h4>contact</h4></button>
+                </div>
+                <div class="serviceCard" id="webDesign">
+                    <i class="fa-solid fa-laptop"></i>
+                    <h2>Web Application</h2>
+                    <p>Lorem ipsum dolor sit amet consectetur, adipisicing elit. Natus, explicabo molestias!</p>
+                    <button style="cursor: pointer;"><h4>contact</h4></button>
+                </div>
+                <div class="serviceCard" id="androidDesign">
+                    <i class="fa-solid fa-mobile"></i>
+                    <h2>Mobile Application</h2>
+                    <p>Lorem ipsum dolor sit amet consectetur, adipisicing elit. Natus, explicabo molestias!</p>
+                    <button style="cursor: pointer;"><h4>contact</h4></button>
+                </div>
+            </div>
+        </div>
+
+        <div id="work">
+            <div class="head">
+                <h1>My Work</h1>
+            </div>
+            <div class="work">
+                <div class="workCard">
+                    <img src="./IMAGES/news.jpg" alt="">
+                    <h2>News Website</h2>
+                    <p>Responsive News Website Using API and HTML CSS JavaScript </p>
+                    <a href="#" target="_blank">Check</a>
+                </div>
+                <div class="workCard">
+                    <img src="./IMAGES/ecommerce.jpg" alt="">
+                    <h2>Ecommerce Website</h2>
+                    <p>Responsive Ecommerce Website Using HTML CSS and JavaScript </p>
+                    <a href="#" target="_blank">Check</a>
+                </div>
+                <div class="workCard">
+                    <img src="./IMAGES/food1.jpg" alt="">
+                    <h2>Food Website</h2>
+                    <p>Responsive Food Website Using HTML CSS and JavaScript </p>
+                    <a href="#" target="_blank">Check</a>
+                </div>
+                <div class="workCard">
+                    <img src="./IMAGES/food2.jpg" alt="">
+                    <h2>Food Website</h2>
+                    <p>Responsive Food Website Using HTML CSS and JavaScript </p>
+                    <a href="#" target="_blank">Check</a>
+                </div>
+            </div>
+
+            <div id="contact">
+                <div class="head">
+                    <h1>Contact Us</h1>
+                </div>
+                <div class="contact">
+                    <input type="text" placeholder="Enter Your Name" id="name">
+                    <input type="Email" placeholder="Enter Your Email" id="email">
+                    <textarea  rows="6" cols="35" placeholder="Your Message..."  id="msg"></textarea>
+                    <button id="submit">Submit</button>
+                </div>
+            </div>
+
+            <div class="footer">
+                <div class="icons">
+                    <i class="fa-brands fa-twitter"></i>
+                    <i class="fa-brands fa-instagram"></i>
+                    <i class="fa-brands fa-youtube"></i>
+                    <i class="fa-brands fa-facebook"></i>
+                </div>
+                <div class="text">
+                    <p>Privacy Policy</p>
+                    <p>Term & Condition</p>
+                    <p>Disclaimer</p>
+                </div>
+                 
+            </div>
+        </div>
+     </div>
+     
+    <script src="Portfolio.js"></script>
+</body>
+</html>
