@@ -1,0 +1,210 @@
+*
+{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    color: white;
+}
+
+.container
+{
+    height: 100vh;
+    overflow: hidden;
+    width: 100%;
+    background-color: rgb(0, 0, 0);
+    position: relative;
+    z-index: 2;
+}
+
+nav
+{
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    padding: 0 40px;
+    position: relative;
+    z-index: -6;
+    margin-top: -28px;
+    margin-bottom: 10px;
+}
+
+.container h1{
+    font-weight: 700;
+}
+
+img{
+    height: 140px;
+    width: 200px;
+    object-fit: cover;
+
+}
+
+div .content
+{
+    display: flex;
+    gap: 40px;
+    font-size: 0.8rem;
+}
+
+#login
+{
+    display:flex;
+    gap: 35px;
+    align-items: center;
+    justify-content: space-between;
+}
+
+#login button
+{
+    color: black;
+    padding: 14px 10px;
+    border-radius: 6px;
+    border: none;
+    font-weight: 700;
+
+}
+
+#login h4
+{
+    transition: all 0.2s ease;
+}
+#login h4:hover{
+    color: rgb(6, 146, 74);
+    transform: rotate(30deg);
+}
+
+#login button:hover{
+    background-color: rgb(90, 24, 151);
+    color: white;
+}
+
+div h1
+{
+    text-align: center;
+    font-size: 7.5rem;
+    line-height: 130px;
+   
+}
+
+
+div h1 span{
+    height: 100px;
+    width: 250px;
+    background-color: rgb(124, 55, 55);
+    padding: 23px;
+    border-radius: 50px;
+    font-size: 3rem;
+    position: relative;
+    top: -24px;  
+}
+
+#tl
+{
+    position: absolute;
+    top: 140px;
+    left: 160px;
+    height: 150px;
+    width: 170px;
+    border-radius: 10px;
+    z-index: -1;
+}
+
+#tr
+{
+    position: absolute;
+    top: 160px;
+    right: 150px;
+    height: 220px;
+    width: 230px;
+    border-radius: 10px;
+    z-index: -1;
+}
+
+#bl
+{
+    position: absolute;
+    top: 440px;
+    left: 280px;
+    height: 160px;
+    width: 160px;
+    border-radius: 10px;
+    z-index: -1;
+}
+
+#br
+{
+    position: absolute;
+    top: 440px;
+    right: 150px;
+    height: 160px;
+    width: 160px;
+    border-radius: 10px;
+    z-index: -1;
+}
+
+
+
+.announce
+{
+    margin-top: 30px;
+    height: 120px;
+    width: 100%;
+    display: flex;
+    gap: 20px;
+    align-items: center;
+    justify-content: center;
+}
+
+.announce img
+{
+    height:50px;
+    width: 50px;
+    object-fit: cover;
+    opacity: 0.7;
+}
+
+footer
+{
+
+    margin-top: -10px;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    height: 73px;
+    width: 60%;
+}
+ footer img{
+    margin-left: 20px;
+    height: 25px;
+    width: 25px;
+    background: transparent;
+    object-fit: cover;
+
+} 
+
+#twitter
+{
+ height: 1.4rem;
+ width: 2rem;
+}
+
+.fcontent
+{
+    height: 45px;
+    display: flex;
+    justify-content: flex-start;
+    align-items: center;
+    margin-top: -40px;
+}
+.fcontent img{
+  height: 2.4rem;
+  width: 2.4rem;
+  background-color: transparent;
+  border-radius: 50%;
+}
+
+nav h3:hover
+{
+    cursor: pointer;
+    color: rgb(202, 156, 18);
+}
